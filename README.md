@@ -20,7 +20,7 @@ Create StorageClass that consumes driver
 
 ```yaml
 # StorageClass that uses the XCP-ng CSI Driver
-apiVesrion: storage.k8s.io/v1
+apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
    name: fast
